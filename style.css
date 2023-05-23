@@ -31,6 +31,7 @@
 .BarraNav {
     display: flex;
     justify-content: center;
+    background-color: rgb(247, 247, 202) ;
 }
 
 
@@ -98,20 +99,14 @@ a {
     text-align: center;
 position: relative;
 display: flex;
+justify-content: space-around;
   }
-
-.comentario { 
-    justify-content: center;
-    text-align: center;
-    font-size: x-large;
-}
 
 .circle {
     width: 20vw;
 	height: 20vw;
     border-radius: 50%;
     border: 5px solid rgb(164, 211, 33);
-    margin-right: 3em;
     overflow: hidden;
 }
 
@@ -121,4 +116,30 @@ display: flex;
     object-fit: cover; /* para ajustar la imagen dentro del círculo */
   }
 
+.tequeño { 
+    display: flex;
+    font-size: 30px;
+    color: rgb(216, 168, 35);
+    margin: 0;
+    justify-content: center;
+}
+  
+  .teque { 
+    display: flex;
+    font-size: x-large;
+}
 
+.parrafos { 
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+img {
+    margin-right: 3em;
+  }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+}
