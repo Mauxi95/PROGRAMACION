@@ -80,6 +80,7 @@ a {
     justify-content: center;
     color: rgb(216, 168, 35);
    font-weight: bold;
+   background-color: rgb(247, 247, 202) ;
 }
 
 /* Acá empiezan mis imagenes en circulo */
@@ -116,22 +117,27 @@ justify-content: space-around;
     object-fit: cover; /* para ajustar la imagen dentro del círculo */
   }
 
+  /* acá empieza la historia */
+
 .tequeño { 
     display: flex;
     font-size: 30px;
     color: rgb(216, 168, 35);
     margin: 0;
     justify-content: center;
+    background-color: rgb(247, 247, 202) ;
 }
   
   .teque { 
     display: flex;
     font-size: x-large;
+    margin-right: 30px;
+    font-size: 20px;
 }
 
 .parrafos { 
     display: flex;
-    text-align: center;
+    justify-content: left;
     justify-content: space-around;
 }
 
@@ -142,4 +148,63 @@ img {
 .text-container {
     display: flex;
     flex-direction: column;
+    margin-top: 30px;
+}
+
+.imagen-doble {
+    display: flex;
+    width: 30%;
+    height: 10%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.tequeños-super { 
+display: flex;
+margin-top: 15px;
+color: rgb(216, 168, 35);
+font-size: 20px;
+}
+
+.ajo {
+    width: 25%;
+    height: 30%;
+    float: right;
+    margin-right: 100px;
+    
+}
+
+.congelados { 
+    color: rgb(216, 168, 35);
+    font-size: 20px;
+    margin-right: 250px;
+    margin-top: 60px;
+
+}
+
+.congelado { 
+    width: 25%;
+    height: 30%;
+    float: left;
+    margin-top: 30px;
+}
+
+.tequeconge { 
+    float: right;
+    margin-right: 200px;
+    overflow: auto;
+}
+
+.choco { 
+    width: 25%;
+    height: 30%;
+    float: right;
+   margin-right: 100px;
+}
+
+.tequechoco {
+    font-size: 20px;
+    margin-top: 130px;
+    color: rgb(216, 168, 35);
+    margin-right: 60px;
 }
