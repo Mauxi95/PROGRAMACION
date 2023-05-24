@@ -128,27 +128,9 @@ justify-content: space-around;
     background-color: rgb(247, 247, 202) ;
 }
   
-  .teque { 
-    display: flex;
-    font-size: x-large;
-    margin-right: 30px;
-    font-size: 20px;
-}
-
 .parrafos { 
     display: flex;
     justify-content: left;
-    justify-content: space-around;
-}
-
-img {
-    margin-right: 3em;
-  }
-
-.text-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
 }
 
 .imagen-doble {
@@ -157,36 +139,57 @@ img {
     height: 10%;
     margin-top: 30px;
     margin-left: 100px;
+    margin-right: 3em;
+    border: 5px solid rgb(164, 211, 33);
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+  .teque { 
+    display: flex;
+    font-size: x-large;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.teque-ajo { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.imagen-ajo {
+    display: flex;
+    width: 20%;
+    height: 50%;
+    border: 5px solid rgb(164, 211, 33);
 }
 
 .tequeños-super { 
-display: flex;
-margin-top: 15px;
-color: rgb(216, 168, 35);
-font-size: 20px;
+    display: flex;
+    color: rgb(216, 168, 35);
+    font-size: 20px;
 }
 
-.ajo {
-    width: 25%;
-    height: 30%;
-    float: right;
-    margin-right: 100px;
-    
+.imagen-congelado { 
+    width: 20%;
+    height: 40%;
+    float: left;
+    margin-top: 60px;
+    border: 5px solid rgb(164, 211, 33);
+    float: left;
 }
 
 .congelados { 
     color: rgb(216, 168, 35);
     font-size: 20px;
-    margin-right: 250px;
-    margin-top: 60px;
-
-}
-
-.congelado { 
-    width: 25%;
-    height: 30%;
-    float: left;
-    margin-top: 30px;
+    text-align: center;
+    margin-top: 100px;
 }
 
 .tequeconge { 
@@ -195,11 +198,11 @@ font-size: 20px;
     overflow: auto;
 }
 
-.choco { 
-    width: 25%;
-    height: 30%;
+.imagen-choco { 
+    width: 20%;
+    height: 0%;
     float: right;
-   margin-right: 100px;
+    margin-top: 200px;
 }
 
 .tequechoco {
@@ -208,3 +211,4 @@ font-size: 20px;
     color: rgb(216, 168, 35);
     margin-right: 60px;
 }
+
