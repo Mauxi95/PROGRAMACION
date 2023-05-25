@@ -130,7 +130,6 @@ justify-content: space-around;
   
 .parrafos { 
     display: flex;
-    justify-content: left;
 }
 
 .imagen-doble {
@@ -144,71 +143,47 @@ justify-content: space-around;
 }
 
 .text-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
   .teque { 
-    display: flex;
     font-size: x-large;
     margin-right: 30px;
-    font-size: 20px;
+    font-size: 20px; 
 }
 
 .teque-ajo { 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
+    margin-top: 8%;
 }
 
 .imagen-ajo {
-    display: flex;
-    width: 20%;
-    height: 50%;
+    width: 11%;
+    height: 11%;
     border: 5px solid rgb(164, 211, 33);
+    margin-left: 5%;
 }
 
 .tequeños-super { 
-    display: flex;
     color: rgb(216, 168, 35);
     font-size: 20px;
 }
 
-.imagen-congelado { 
-    width: 20%;
-    height: 40%;
-    float: left;
-    margin-top: 60px;
+.tequesuper {
+    color: black;
+}
+
+
+.imagen-congelado{
+    width: 13%;
+    height: 13%;
     border: 5px solid rgb(164, 211, 33);
-    float: left;
+    margin-right: 5%;
 }
 
-.congelados { 
-    color: rgb(216, 168, 35);
-    font-size: 20px;
-    text-align: center;
-    margin-top: 100px;
+.imagen-choco {
+    width: 15%;
+    height: 15%;
+    border: 5px solid rgb(164, 211, 33);
+    margin-left: 5%;
 }
-
-.tequeconge { 
-    float: right;
-    margin-right: 200px;
-    overflow: auto;
-}
-
-.imagen-choco { 
-    width: 20%;
-    height: 0%;
-    float: right;
-    margin-top: 200px;
-}
-
-.tequechoco {
-    font-size: 20px;
-    margin-top: 130px;
-    color: rgb(216, 168, 35);
-    margin-right: 60px;
-}
-
